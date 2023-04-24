@@ -1,2 +1,2 @@
 echo "hello world"
-echo "good morinig to all"`
+echo "good morinig to all"
