@@ -6,7 +6,7 @@ pipeline {
             stage("build")
                 {
                   steps 
-                    { echo "building successfully"
+                    { python app.py
                     }
                 }
             stage("deplov")
