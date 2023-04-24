@@ -1,8 +1,6 @@
 FROM ubuntu:16.04
 
-RUN mkdir -p /app
-
-COPY . /app
+COPY wat.sh /app/
 
 WORKDIR /app
 
