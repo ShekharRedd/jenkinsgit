@@ -1,41 +1,26 @@
-// pipeline {
-//   agent any
-    
-    
-//     stages{
-//             stage("build")
-//                 {
-//                   steps 
-//                     { 
-//                       sh "python app.py"
-//                     }
-//                 }
-//             stage("deplov")
-//                 { 
-//                   steps
-//                      { echo "deplov successfully"
-//                      }
-//                 }
-//     }
-  
-// }
-
 pipeline {
   agent any
     
-  stages{
-    stage("build") {
-      steps {
-        echo "hello world"
-      }
+    
+    stages{
+            stage("build")
+                {
+                  steps 
+                    { 
+                        echo "goo mroning"
+                    }
+                }
+            stage("deplov")
+                { 
+                  steps
+                     { echo "deplov successfully"
+                     }
+                }
     }
-    stage("deploy") {
-      steps {
-        echo "deploy successfully"
-      }
-    }
-  }
+  
 }
+
+
 
                        
         
