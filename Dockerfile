@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+iFROM ubuntu:16.04
 
 COPY wat.sh /app/
 
