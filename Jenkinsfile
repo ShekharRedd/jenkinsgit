@@ -26,7 +26,7 @@ pipeline {
   stages{
     stage("build") {
       steps {
-        python "app.py"
+        echo "hello world"
       }
     }
     stage("deploy") {
