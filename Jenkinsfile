@@ -1,18 +1,24 @@
-pipeline{
-  Agent :any
-  {
+pipeline {
+  agent any{
+    
+    
     stages{
-              stage("build"){
-                      step{
-          
-                echo "building successfully world"
-            }
-          }
-      stage("deplov"){
-        step{
-          echo "deplove successfully world"
-        }
-      }
+            stage("build")
+                {
+                  steps 
+                    { echo "building successfully"
+                    }
+                }
+            stage("deplov")
+                { 
+                  steps
+                     { echo "deplov successfully"
+                     }
+                }
     }
   }
 }
+                       
+        
+                    
+        
