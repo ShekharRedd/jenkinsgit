@@ -3,11 +3,11 @@ pipeline {
 
 
     stages{
-            stage("build")
+            stage("app")
                 {
                   steps 
                     { 
-                        echo "goo mroning"
+                        sh "python app.py
                     }
                 }
             stage("deplov")
