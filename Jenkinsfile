@@ -7,7 +7,7 @@ pipeline {
                 {
                   steps 
                     { 
-                        sh "python app.py
+                        sh "python app.py"
                     }
                 }
             stage("deplov")
