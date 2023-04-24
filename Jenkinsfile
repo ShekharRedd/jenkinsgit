@@ -6,7 +6,8 @@ pipeline {
             stage("build")
                 {
                   steps 
-                    { python app.py
+                    { 
+                      sh "python app.py"
                     }
                 }
             stage("deplov")
