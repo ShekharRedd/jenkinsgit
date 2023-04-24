@@ -1,7 +1,10 @@
-iFROM ubuntu:16.04
-
-COPY wat.sh /app/
+FROM ubuntu:16.04
 
 WORKDIR /app
 
-CMD ["bash", "wat.sh"]
+
+COPY wat.sh /app/
+
+
+
+CMD ["bash", "/app/wat.sh"]
