@@ -26,7 +26,7 @@ pipeline {
   stages{
     stage("build") {
       steps {
-        sh "python app.py"
+        python "app.py"
       }
     }
     stage("deploy") {
