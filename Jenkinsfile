@@ -3,11 +3,14 @@ pipeline {
     
     
     stages{
-            stage("build")
+            stage("clone")
                 {
                   steps 
                     { 
-                        echo "goo mroning"
+                      git  "https://github.com/ShekharRedd/companyauropro.git"
+                      echo "good morning"
+                     
+                        
                     }
                 }
             stage("deplov")
