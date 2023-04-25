@@ -8,7 +8,7 @@ pipeline {
                   steps 
                     { 
                       git "https://github.com/ShekharRedd/companyauropro.git"
-                      sh "python code.py"
+                      sh "python3 code.py"
                      
                         
                     }
