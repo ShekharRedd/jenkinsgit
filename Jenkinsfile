@@ -7,7 +7,7 @@ pipeline {
                 {
                   steps 
                     { 
-                      git clone "https://github.com/ShekharRedd/companyauropro.git"
+                      git "https://github.com/ShekharRedd/companyauropro.git"
                       sh "cat code.py"
                      
                         
