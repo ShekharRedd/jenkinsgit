@@ -32,8 +32,6 @@
 //   }
 // }
 
-
-
 pipeline {
     agent any
 
@@ -53,7 +51,7 @@ pipeline {
           echo "running on master branch"
         }
       }
-         
+    }     
     
 }
 
