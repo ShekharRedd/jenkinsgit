@@ -3,13 +3,13 @@ pipeline {
 
   stages {
     stage("Build") {
-      when {
-        expression {
-          return env.BRANCH_NAME == 'master'
-        }
-      }
+//       when {
+//         expression {
+//           return env.BRANCH_NAME == 'master'
+//         }
+//       }
       steps {
-        sh ' echo "now this branch is at master" '
+        sh ' echo "now this branch is at ${BRANCH_NAME}" '
       }
     }
     stage("Deploy") {
