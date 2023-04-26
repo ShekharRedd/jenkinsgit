@@ -40,6 +40,8 @@ pipeline {
     stages {
         stage('Example') {
             steps {
+              
+              sh ' git checkout master '
                 echo "Running on branch ${env.BRANCH_NAME}"
             }
         }
