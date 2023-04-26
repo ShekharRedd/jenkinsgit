@@ -25,7 +25,7 @@ pipeline {
 //         }
 //       }
       steps {
-        sh 'git branch -r '
+        sh 'git branch '
       }
     }
     stage("Deploy") {
