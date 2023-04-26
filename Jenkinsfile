@@ -3,12 +3,9 @@ pipeline {
 
   stages {
     stage("Build") {
-      steps{
-        echo "sdhj"
-      }
       when {
         expression {
-          env.BRANCH_NAME == "master"
+          env.BRANCH_NAME == 'master'
         }
       }
       steps {
