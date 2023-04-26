@@ -9,7 +9,7 @@ pipeline {
 //         }
 //       }
       steps {
-        sh 'ls'
+        sh 'git branch'
       }
     }
     stage("Deploy") {
