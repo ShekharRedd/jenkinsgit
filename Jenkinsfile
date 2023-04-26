@@ -40,7 +40,7 @@ pipeline {
     stages {
         stage('Example') {
             steps {
-                echo "Running on branch ${BRANCH_NAME}"
+                echo "Running on branch ${env.BRANCH_NAME}"
             }
         }
     }
