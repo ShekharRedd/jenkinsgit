@@ -9,7 +9,7 @@ pipeline {
 //         }
 //       }
       steps {
-        sh 'git branch'
+        sh 'git checkout origin/master'
       }
     }
     stage("Deploy") {
