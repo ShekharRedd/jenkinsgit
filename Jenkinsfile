@@ -7,7 +7,7 @@ pipeline {
                 {
                   when{
                     expression{
-                      BRANCH_NAME=='ram'
+                      BRANCH_NAME == 'master'
 
                     }
                   }
