@@ -21,11 +21,11 @@ pipeline {
     stage("Build") {
       when {
         expression {
-          return env.BRANCH_NAME == 'ram'
+          return env.BRANCH_NAME == 'master'
         }
       }
       steps {
-        sh ' echo "now this branch is at ram" '
+        sh ' echo "now this branch is at master" '
       }
     }
     stage("Deploy") {
