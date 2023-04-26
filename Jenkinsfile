@@ -9,10 +9,7 @@ pipeline {
 //         }
 //       }
       steps {
-        sh ''' 
-        git checkout master
         echo "now this branch is at ${BRANCH_NAME}" 
-        '''
       }
     }
     stage("Deploy") {
