@@ -5,7 +5,7 @@ pipeline {
     stage("Build") {
       when {
         expression {
-          env.BRANCH_NAME == "ram"
+          env.BRANCH_NAME == "master"
         }
       }
       steps {
