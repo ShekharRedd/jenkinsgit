@@ -3,11 +3,11 @@ pipeline {
 
   stages {
     stage("Build") {
-      when {
-        expression {
-          env.BRANCH_NAME == 'origin/master'
-        }
-      }
+//       when {
+//         expression {
+//           env.BRANCH_NAME == 'origin/master'
+//         }
+//       }
       steps {
         sh 'ls'
       }
