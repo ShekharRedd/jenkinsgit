@@ -3,11 +3,17 @@ pipeline {
 
 
     stages{
-            stage("app")
+            stage("build")
                 {
+                  when{
+                    expression{
+                      BRANCH_NAME=='master'
+
+                    }
+                  }
                   steps 
                     { 
-                        sh "python app.py"
+                       echo "hello world"
                     }
                 }
             stage("deplov")
@@ -16,6 +22,18 @@ pipeline {
                      { echo "deplov successfully"
                      }
                 }
+    }
+    post{
+        always{
+          echo "always pass"
+        }
+        success{
+          echo "success pass"
+
+        }
+        failure{
+          echo "failure fails"
+        }
     }
 
 }
