@@ -19,13 +19,13 @@ pipeline {
     
     
     stage("Build") {
-//       when {
-//         expression {
-//           env.BRANCH_NAME == 'origin/master'
-//         }
-//       }
+      when {
+        expression {
+          env.BRANCH_NAME == 'origin/master'
+        }
+      }
       steps {
-        sh 'git branch '
+        sh ' echo "now this branch is at ram" '
       }
     }
     stage("Deploy") {
