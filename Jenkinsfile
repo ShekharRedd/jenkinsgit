@@ -2,6 +2,22 @@ pipeline {
   agent any
 
   stages {
+    
+    stage("Chec") {
+      steps {
+        sh '''
+        git branch -r
+        
+        git checkout origin/ram
+        
+        ls
+        
+        '''
+      }
+    }
+    
+    
+    
     stage("Build") {
 //       when {
 //         expression {
