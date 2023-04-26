@@ -8,7 +8,7 @@ pipeline {
         sh '''
         git branch -r
         
-        git checkout origin/ram
+        git checkout ram
         
         ls
         
