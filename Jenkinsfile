@@ -23,17 +23,5 @@ pipeline {
                      }
                 }
     }
-    post{
-        always{
-          echo "always pass"
-        }
-        success{
-          echo "success pass"
-
-        }
-        failure{
-          echo "failure fails"
-        }
-    }
 
 }
