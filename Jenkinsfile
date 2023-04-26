@@ -42,9 +42,18 @@ pipeline {
             steps {
               
               sh ' git checkout master '
-                echo "Running on branch ${env.BRANCH_NAME}"
             }
         }
-    }
+      stage ("build"){
+        when {
+          branch 'master'
+        }
+        
+        steps{
+          echo "running on master branch"
+        }
+      }
+         
+    
 }
 
