@@ -3,13 +3,13 @@ pipeline {
 
   stages {
     stage("Build") {
-      when {
-        expression {
-          env.BRANCH_NAME == 'master'
-        }
-      }
+//       when {
+//         expression {
+//           env.BRANCH_NAME == 'master'
+//         }
+//       }
       steps {
-        sh 'echo "Building on master branch"'
+        sh 'git branch'
       }
     }
     stage("Deploy") {
