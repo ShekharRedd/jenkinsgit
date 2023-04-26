@@ -5,11 +5,11 @@ pipeline {
     stage("Build") {
       when {
         expression {
-          env.BRANCH_NAME == 'master'
+          env.BRANCH_NAME == 'origin/master'
         }
       }
       steps {
-        sh 'git checkout origin/master'
+        sh 'ls'
       }
     }
     stage("Deploy") {
