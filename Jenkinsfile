@@ -21,7 +21,7 @@ pipeline {
     stage("Build") {
       when {
         expression {
-          env.BRANCH_NAME == 'ram'
+          return env.BRANCH_NAME == 'ram'
         }
       }
       steps {
