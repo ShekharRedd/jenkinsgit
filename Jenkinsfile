@@ -1,27 +1,33 @@
 pipeline {
   agent any
 
-
-    stages{
-            stage("build")
-                {
-                  when{
-                    expression{
-                      env.BRANCH_NAME == 'master'
-
-                    }
-                  }
-                  steps 
-                    { 
-                       echo "hello world"
-                    }
-                }
-            stage("deplov")
-                { 
-                  steps
-                     { echo "deplov successfully"
-                     }
-                }
+  stages {
+    stage("Build") {
+      when {
+        expression {
+          env.BRANCH_NAME == 'master'
+        }
+      }
+      steps {
+        sh 'echo "Building on master branch"'
+      }
     }
-
+    stage("Deploy") {
+      steps {
+        sh 'echo "Deploying..."'
+      }
+    }
+  }
+  
+  post {
+    always {
+      echo 'Always executed'
+    }
+    success {
+      echo 'Pipeline succeeded'
+    }
+    failure {
+      echo 'Pipeline failed'
+    }
+  }
 }
