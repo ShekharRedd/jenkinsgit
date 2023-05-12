@@ -20,7 +20,7 @@ pipeline {
     }
     stage('Checkout') {
       when {
-        expression { env.BRANCH_NAME != 'master' }
+        expression { env.BRANCH_NAME == 'master' }
       }
       steps {
         sh 'echo "Checkout to master branch"'
