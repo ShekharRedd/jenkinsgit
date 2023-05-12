@@ -1,15 +1,15 @@
 pipeline {
   agent any
-    
-    
     stages{
             stage("clone")
                 {
                   steps 
                     { 
+                      script{
+                        
                       git "https://github.com/ShekharRedd/companyauropro.git"
-                      sh "python3 code.py"
-                     
+                      sh "python code.py"
+                      }
                         
                     }
                 }
