@@ -13,18 +13,22 @@ pipeline {
                         
                     }
                 }
-                  stage("deplov")
-                { 
+                  stage("deplobv")
+                            { 
                          when{
                          expression{
-                           BRANCH_NAME=='master'
-                         }}
+                           env.BRANCH_NAME=='master'
+                         }
+                         }
                   steps
                      { 
 
                        echo "deplov successfully"
                      }
                 }
+      
+      
+      
             stage("deplov")
                 { 
                   steps
