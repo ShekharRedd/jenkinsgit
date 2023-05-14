@@ -1,3 +1,5 @@
+#!usr/bin/env groovy
+@Library("SharedLib")_
 pipeline {
   agent any
   
@@ -6,6 +8,7 @@ pipeline {
     stage(checkout){
       steps{
       sh ' git checkout master '
+        test()
       }
     
     
