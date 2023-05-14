@@ -1,5 +1,6 @@
 #!usr/bin/env groovy
-@Library("SharedLib")_
+@Library("SharedLib")
+def gv
 pipeline {
   agent any
   
@@ -7,27 +8,27 @@ pipeline {
     
     stage(checkout){
       steps{
-      sh ' git checkout master '
+//       sh ' git checkout master '
         test()
       }
     
     
     }
-    stage('Build') {
-      when {
-        expression { env.BRANCH_NAME == 'master' }
-      }
-      steps {
-        sh 'echo "Building on master branch"'
-      }
-    }
-    stage('Checkout') {
-      when {
-        expression { env.BRANCH_NAME == 'master' }
-      }
-      steps {
-        sh 'echo "Checkout to master branch"'
-      }
-    }
+//     stage('Build') {
+//       when {
+//         expression { env.BRANCH_NAME == 'master' }
+//       }
+//       steps {
+//         sh 'echo "Building on master branch"'
+//       }
+//     }
+//     stage('Checkout') {
+//       when {
+//         expression { env.BRANCH_NAME == 'master' }
+//       }
+//       steps {
+//         sh 'echo "Checkout to master branch"'
+//       }
+//     }
   }
 }
