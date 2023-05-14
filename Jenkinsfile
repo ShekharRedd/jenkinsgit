@@ -6,7 +6,7 @@ pipeline {
   
   stages {
     
-    stage(checkout){
+    stage("checkout"){
       steps{
 //       sh ' git checkout master '
         test()
