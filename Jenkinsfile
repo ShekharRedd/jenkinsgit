@@ -9,7 +9,9 @@ pipeline {
     stage("checkout"){
       steps{
 //       sh ' git checkout master '
+        script{
         test.call1()
+        }
       }
     
     
