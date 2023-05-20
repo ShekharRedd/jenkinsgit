@@ -35,7 +35,7 @@ pipeline {
             stage("deploying")
                 { 
                   steps
-                     { echo "deplov successfully webhooks hnmnmmbbappendin"
+                     { echo "deplov successfully sedg webhooks hnmnmmbbappendin"
                       
                       script{
                         deploy.dep()
