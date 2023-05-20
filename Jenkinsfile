@@ -37,7 +37,7 @@ pipeline {
                   steps
                      { echo "deplov successfully"
                       script{
-                        deplov.dep()
+                        deploy.dep()
                       }
                      }
                 }
