@@ -1,5 +1,6 @@
 #!/usr/bin/env groovy
-@Library("SharedLib")_
+@Library("SharedLib")
+def gv
 pipeline {
   agent any
   
@@ -31,7 +32,9 @@ pipeline {
     stage("testing"){
       
       steps{
+        script{
         test.call1()
+        }
       }
     }
   }
