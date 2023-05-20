@@ -32,12 +32,12 @@ pipeline {
       
       
       
-            stage("deplov")
+            stage("deploying")
                 { 
                   steps
                      { echo "deplov successfully"
                       script{
-                        test.call1()
+                        deplov.dep()
                       }
                      }
                 }
