@@ -1,31 +1,34 @@
+#!/usr/bin/env groovy
+@Library("SharedLib")
+def gv
 pipeline {
   agent any
     stages{
-            stage("clone")
-                {
-                  steps 
-                    { 
-                      script{
+//             stage("clone")
+//                 {
+//                   steps 
+//                     { 
+//                       script{
                         
-                      git "https://github.com/ShekharRedd/companyauropro.git"
-                      sh "python code.py"
-                      }
+//                       git "https://github.com/ShekharRedd/companyauropro.git"
+//                       sh "python code.py"
+//                       }
                         
-                    }
-                }
-                  stage("deplobv")
-                            { 
-                         when{
-                         expression{
-                           env.BRANCH_NAME=='master'
-                         }
-                         }
-                  steps
-                     { 
+//                     }
+//                 }
+//                   stage("deplobv")
+//                             { 
+//                          when{
+//                          expression{
+//                            env.BRANCH_NAME=='master'
+//                          }
+//                          }
+//                   steps
+//                      { 
 
-                       echo "deplov successfully"
-                     }
-                }
+//                        echo "deplov successfully"
+//                      }
+//                 }
       
       
       
@@ -33,8 +36,12 @@ pipeline {
                 { 
                   steps
                      { echo "deplov successfully"
+                      script{
+                        test.call1()
+                      }
                      }
                 }
+      
     }
   
 }
