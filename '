@@ -1,6 +1,5 @@
 print("hello world")
 print("changes")
-print(
 <<<<<<< HEAD
 print("good to come back")
 
