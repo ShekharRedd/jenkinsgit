@@ -1,7 +1,13 @@
 print("hello world")
 print("changes")
+<<<<<<< HEAD
 print("good to come back")
 
+=======
+print("fetch the files")
+print("gooh")
+print("hoog")
+>>>>>>> 924a5de9403069aa4c9c83d021d9664c7d85b168
 import random
 
 for i in range(10):
