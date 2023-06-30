@@ -1,0 +1,533 @@
+[33mcommit 54b5f6b013a9548642dc617a36363e0b821a2154[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: d6f9097 b642b28
+Author: ShekharRedd <shekharreddy4558@gmail.com>
+Date:   Tue Jun 20 12:14:20 2023 +0530
+
+    Merge branch 'master' of https://github.com/ShekharRedd/jenkinsgit
+
+[33mcommit d6f9097df039d506208e5563084e112a2d568b88[m
+Author: ShekharRedd <shekharreddy4558@gmail.com>
+Date:   Tue Jun 20 12:13:04 2023 +0530
+
+    hello
+
+[33mcommit 36bc42f5d05df630b89970ba60a15d613c3895b5[m
+Author: ShekharRedd <shekharreddy4558@gmail.com>
+Date:   Tue Jun 20 12:03:48 2023 +0530
+
+    df
+
+[33mcommit 71b8de6ea7b00e939e2b9a0cd2b36acda848de13[m
+Author: ShekharRedd <shekharreddy4558@gmail.com>
+Date:   Tue Jun 20 10:19:35 2023 +0530
+
+    hi
+
+[33mcommit b642b28fab41db601f05dcd92e82c50dad1fb531[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32msam18[m[33m, [m[1;32mkm[m[33m)[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Tue Jun 20 10:01:08 2023 +0530
+
+    Create remote.txt
+
+[33mcommit ecc173b4fa389ed782e6c59c2075a50c4af2da91[m
+Author: ShekharRedd <shekharreddy4558@gmail.com>
+Date:   Mon Jun 19 22:10:56 2023 +0530
+
+    dn
+
+[33mcommit 9e478c02045af180ac324f0bb6efcc152c0946c7[m
+Author: ShekharRedd <shekharreddy4558@gmail.com>
+Date:   Mon Jun 19 22:09:00 2023 +0530
+
+    dde
+
+[33mcommit 37ec9dbf0abcd2110b49a51170cd63832ea6a381[m
+Merge: 02d64b8 924a5de
+Author: ShekharRedd <shekharreddy4558@gmail.com>
+Date:   Mon Jun 19 22:06:07 2023 +0530
+
+    Merge branch 'sam18' of https://github.com/ShekharRedd/jenkinsgit
+
+[33mcommit 02d64b87a94d52891f6b397c1d40c92b0679fed6[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Mon Jun 19 22:03:56 2023 +0530
+
+    Update app.py
+
+[33mcommit 924a5de9403069aa4c9c83d021d9664c7d85b168[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Mon Jun 19 22:03:33 2023 +0530
+
+    Update app.py
+
+[33mcommit 5391c0ea488883b38b4db31eca3e46b8b58b5cc6[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Mon Jun 19 22:00:39 2023 +0530
+
+    Update app.py
+
+[33mcommit 5a45868209ac5b5b6988fc445775e1b115245330[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Mon Jun 19 21:56:33 2023 +0530
+
+    Update app.py
+
+[33mcommit 4944a36234885c3a8db38226a778619e3e64297a[m
+Author: ShekharRedd <shekharreddy4558@gmail.com>
+Date:   Mon Jun 19 21:53:19 2023 +0530
+
+    hello
+
+[33mcommit 21fe5955f26ea7565a2c598b74f9d4240592ff1e[m
+Merge: b9cc663 f862989
+Author: ShekharRedd <shekharreddy4558@gmail.com>
+Date:   Mon Jun 19 21:51:14 2023 +0530
+
+    f
+
+[33mcommit f8629892ccf1a8db3f71100da933aac90bd13c41[m
+Author: ShekharRedd <shekharreddy4558@gmail.com>
+Date:   Mon Jun 19 21:48:40 2023 +0530
+
+    hello
+
+[33mcommit 178eba34cfc800a8fa647686ae474d9c0cfdea35[m
+Merge: c24814f fd2bfb1
+Author: ShekharRedd <shekharreddy4558@gmail.com>
+Date:   Mon Jun 19 21:45:11 2023 +0530
+
+    Merge branch 'master' of https://github.com/ShekharRedd/jenkinsgit
+
+[33mcommit c24814f43c3bb233abf67b71de630b120c3f8f7d[m
+Author: ShekharRedd <shekharreddy4558@gmail.com>
+Date:   Mon Jun 19 21:43:44 2023 +0530
+
+    hello worl changes
+
+[33mcommit aa5e8a1f341d704f89ffc70597594943c3dcb760[m
+Merge: 5cc2f79 72d4cee
+Author: ShekharRedd <shekharreddy4558@gmail.com>
+Date:   Mon Jun 19 21:28:07 2023 +0530
+
+    hello merges Merge branch 'experimental'
+
+[33mcommit 5cc2f79546d86e1bdfd4528aea521349f94bedcb[m
+Author: ShekharRedd <shekharreddy4558@gmail.com>
+Date:   Mon Jun 19 21:26:56 2023 +0530
+
+    comited in master
+
+[33mcommit 72d4cee36c69f822d3d5b5c688fc87fc6f01c5a0[m[33m ([m[1;32mexperimental[m[33m)[m
+Author: ShekharRedd <shekharreddy4558@gmail.com>
+Date:   Mon Jun 19 21:25:48 2023 +0530
+
+    commited the experimental
+
+[33mcommit b9cc663f4d1b19404ca23498d52a66fd4a0ac2c1[m
+Author: ShekharRedd <shekharreddy4558@gmail.com>
+Date:   Mon Jun 19 21:22:20 2023 +0530
+
+    hello changes
+
+[33mcommit 5caff8d16437aeb0f8e01e545a3befea9e2e1f96[m
+Author: ShekharRedd <shekharreddy4558@gmail.com>
+Date:   Mon Jun 19 21:20:32 2023 +0530
+
+    icomminted
+
+[33mcommit 7a48fbff345fd9e192f85540f7704f33723c7119[m
+Merge: 1ba268f 2df2a93
+Author: ShekharRedd <shekharreddy4558@gmail.com>
+Date:   Mon Jun 19 21:15:19 2023 +0530
+
+    Merge branch 'sam18' of https://github.com/ShekharRedd/jenkinsgit into sam18
+
+[33mcommit 1ba268f58dfff140f8940c28f84bc696010218c0[m
+Author: ShekharRedd <shekharreddy4558@gmail.com>
+Date:   Mon Jun 19 21:15:00 2023 +0530
+
+    sstat
+
+[33mcommit 2df2a93cb5c22e33fe9c987fe60651a757f983f4[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Sat May 20 14:34:10 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 2ea60ae2b9f850ae423b5f3db4fb8dc6c0a3ab7c[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Sat May 20 14:30:31 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 28bd86860e8cf81ae4a667b3862e7abbe8b844b2[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Sat May 20 14:27:36 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit ba2ee1ebc636a53f343d980270ecf98b400a3045[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Sat May 20 10:39:07 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 2bfade5e0c5f4ae786c30781ff669be96e912798[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Sat May 20 10:35:27 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 97b7740ff42cc4aa12b36c0dba8ea1760d16f50c[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Sat May 20 10:31:03 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit fd2bfb1580ca2dc7246c51bf2640c549954825ab[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Sun May 14 23:31:13 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 1b3010cf3ae76feabd48eee66b4c842899f20893[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Sun May 14 23:30:16 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 4a2c9e3c28d8961683f59c958ef994c0f4a564ab[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Sun May 14 23:27:43 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 2affe3ed6ba8b25b899f5fd4bdf641867cd191e2[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Sun May 14 23:27:21 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 9f550b8e0425a1597d5a179297092abc655494b2[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Sun May 14 23:25:10 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit aaea2a9187995e432a738abc6ae660c9523d479d[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Fri May 12 12:56:18 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit c01c28537435011bb5cf738e47d0925765d253c4[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Fri May 12 12:53:42 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit c7a86b508bbe44ebfd9f3b9c151b69c038cd04e6[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Fri May 12 12:51:25 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 6483a6a39404fa4afb715b7a44e28d48bce484ac[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Fri May 12 12:48:11 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 3fa68897ea64e024f36974f73c6172abba6ce2ff[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Fri May 12 12:26:40 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 3921db9ab81efa40cadb020c7d83a2abb9a957fa[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 12:29:53 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 3d852f507a1ed780d1aa551131771e478926160a[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 12:28:22 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 123b6be058fcf0933883af0a2a08c7ce7f8d6193[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 12:26:23 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 8119519e5badd0371e28415a2f3618277c4b9a70[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 12:25:30 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 3946b24297581894f192a132ecefeb4c044f26d6[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 12:17:44 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 91e5522f1eec5eaa38e926e836272da32457a7a8[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 12:16:58 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit aece611a61f8a07c83b1f8d140fa038b328356ff[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 12:16:05 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 9eac2af2381ed98098d6c57757e5b424f22130d1[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 12:14:52 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 1fdfb699f2ac33bf60246cef81c416e5b1735479[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 12:13:23 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 7a9a82b7a014e60adc3fc2899207accbd1f8b021[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 12:12:15 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 6e0b49d1be32be129d7426db04600f3ecf8101d6[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 12:10:16 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 2ca4908fc1bd8c2f657be12495674b05fc1f26af[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 12:09:19 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 26235dc8d9a911c789b89664588088023b28a691[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 12:08:30 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 84d781dbbed1fb1873c3fb4a16d6d0422ed70ea0[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 12:07:06 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 2ee109abc77e4d30cb7cb2b0d6abe5616f0b032b[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 12:06:14 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 41faf0cce1b0059e710dea495508fc1f303ce0bb[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 12:05:15 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 6459e21d424be324175a7c905caabfc2b7ef24b4[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 12:04:25 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 120c6c99df48574ac9ab85cd545b729fb265adf3[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 12:03:42 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 3ee1546c8445747bcd65fed25a92d7ad719bc1a8[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 12:02:00 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit e8ccc4c9d88e3f1aaa819afa2bb347d9460f4a5b[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 11:58:58 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit c6b9faae82a0eb2bad43520a95e78654fa01bcc3[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 11:58:02 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 29226f51ddf8c6df621701784a4cf5e6b5820e16[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 11:56:07 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 1bf51d54eec2360de5b877a5577a84e41cb746d7[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 11:54:54 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit d314869a525e2015c9e89a3c954b3399c92acf08[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 11:53:50 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 276bb225565999ee3bfefbb2f163b2a2f6d32574[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 11:51:37 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 284a6ec564d06da91830071ad1c652b7b3b6b913[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 11:48:51 2023 +0530
+
+    vcvjr
+
+[33mcommit fd3e8ae453121d299a505e1193eb291377112ec8[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 11:47:47 2023 +0530
+
+    cvdfv
+
+[33mcommit 01821e3d0e58c09c70dc82868ce5e42a2238fdaf[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 11:45:53 2023 +0530
+
+    jsdvbdbr
+
+[33mcommit 1be1e11ac4fe578b7500f00f5b0b253bbf047d7a[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 11:44:02 2023 +0530
+
+    cvb
+
+[33mcommit b1d3aeea0ba44b7b184e5d19f9681df202c41f93[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 11:42:31 2023 +0530
+
+    ggg
+
+[33mcommit 131300bba6c6f069f7065289616323ea4bb50f3c[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 11:40:12 2023 +0530
+
+    awd
+
+[33mcommit 9cbf8c1c60a0f2bfc14603c032d07e6746dfc152[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 11:38:31 2023 +0530
+
+    aws
+
+[33mcommit 6f69c8ea2ba591f367aa85b08cb9d141dbb5353c[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 11:36:30 2023 +0530
+
+    updates succ
+
+[33mcommit 09a49527bb2769b7ccc316edf6b0e1881f8f84b6[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 11:34:58 2023 +0530
+
+    master
+
+[33mcommit 7c68f6c73a1bf66bb7dada7244e0e6e23a0635b9[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 11:31:19 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit c7a92b77cbdda1ab69e5e4c27297831ac0339ab3[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Wed Apr 26 11:29:05 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 6c0d891c79408d197d80ca706f93b58af9ba8c15[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Tue Apr 25 14:39:54 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit d8ec418d7c5f4607ec86dbd19dc1a58386515f8c[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Tue Apr 25 11:33:00 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit 8d09482134288c9706987cd6cb50aea9245fbfa6[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Tue Apr 25 11:32:07 2023 +0530
+
+    up
+
+[33mcommit 94e92d0dc12b3f6f45edcf9ee8037f23d8b03187[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Tue Apr 25 11:31:21 2023 +0530
+
+    cat.py
+
+[33mcommit a91e0b43cd08099cd61c37b01f71eb6cb0ca47da[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Tue Apr 25 11:27:32 2023 +0530
+
+    adding clone
+
+[33mcommit 0e961417231e8abfe7999207353d80b6383844b6[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Tue Apr 25 00:18:55 2023 +0530
+
+    zdfes
+
+[33mcommit 06f7a55596ffe3af12ebf53042249c8f88c26620[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Tue Apr 25 00:18:13 2023 +0530
+
+    xfg
+
+[33mcommit 015d338c262a623d4b29b616eda4336189e8f292[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Tue Apr 25 00:11:04 2023 +0530
+
+    goodbye
+
+[33mcommit 63d6a229c69a6ca3a46b2bfde9558bfeba819fb0[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Tue Apr 25 00:05:08 2023 +0530
+
+    dsfsf
+
+[33mcommit 4226442ee47bf8989465bc4133afd698ff569d0e[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Tue Apr 25 00:04:13 2023 +0530
+
+    Update Jenkinsfile
+
+[33mcommit d8493252b2685eb4c5699f1a67b8f2570f6a8962[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Mon Apr 24 23:50:40 2023 +0530
+
+    agentchat
+
+[33mcommit ac8dcdbe8080ac1fa8f94d051d079d11e681e6c2[m
+Author: ShekharRedd <115493437+ShekharRedd@users.noreply.github.com>
+Date:   Mon Apr 24 23:48:25 2023 +0530
+
+    chatgpt
