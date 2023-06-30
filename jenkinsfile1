@@ -1,0 +1,18 @@
+pipeline {
+    agent any
+    // parameters {
+    //     string(name: 'ENVIRONMENT', defaultValue: 'dev', description: 'Environment to deploy to')
+    //     booleanParam(name: 'TESTING', defaultValue: true, description: 'Run tests before deployment')
+    //     choice(name: 'BRANCH', choices: ['master', 'develop', 'feature/*'], description: 'Git branch to deploy from')
+    // }
+    stages {
+        stage('Build') {
+            steps {
+                sh 'echo "Running tests..."'
+            }
+        }
+
+        }
+
+    }
+}
