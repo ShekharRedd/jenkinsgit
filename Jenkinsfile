@@ -62,7 +62,7 @@ pipeline {
         }
         stage('environment') {
             steps {
-                sh 'echo "environmetn to ${ENVIRONMENT} environment..."'
+                sh 'echo "fgf dg et environmetn to ${ENVIRONMENT} environment..."'
             }
         }        
     }
