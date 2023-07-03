@@ -100,7 +100,7 @@ pipeline {
         stage('Build') {
             steps{
             script{
-                gv.build
+                gv.build()
             }
             }
         }
