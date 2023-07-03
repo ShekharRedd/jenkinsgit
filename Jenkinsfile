@@ -107,6 +107,7 @@ pipeline {
                 //   git commit -m "adding file"
                 //   git push
                 // '''
+                echo "hi build"
             }
         }
 
