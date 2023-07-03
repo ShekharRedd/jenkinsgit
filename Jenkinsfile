@@ -62,7 +62,7 @@ pipeline {
         }
         stage('environment') {
             steps {
-                sh 'echo "fgf dg et environmetn to ${ENVIRONMENT} environment..."'
+                sh 'echo " ${BUILD_ID} it is working fine thanks to all the meber"'
             }
         }        
     }
