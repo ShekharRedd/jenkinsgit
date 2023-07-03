@@ -96,14 +96,14 @@ pipeline {
             }
 
         } 
-stage('Build') {
-    steps {
-        sh '''
-            cd D:/gitbash
-            ls
-        '''
-    }
-}
+        stage('Build') {
+            steps {
+                sh '''
+                    cd D:/gitbash
+                    ls
+                '''
+            }
+        }
 
         stage('Test') {
             when {
