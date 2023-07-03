@@ -96,16 +96,15 @@ pipeline {
             }
 
         } 
+stage('Build') {
+    steps {
+        sh '''
+            cd D:/gitbash
+            ls
+        '''
+    }
+}
 
-        stage('Build') {
-            steps{
-            // script{
-            //     gv.build()
-            // }
-            sh "cd D:"
-            sh "ls"
-            }
-        }
         stage('Test') {
             when {
                 expression { params.TESTING == true }
