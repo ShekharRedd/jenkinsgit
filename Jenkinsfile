@@ -129,6 +129,7 @@ pipeline {
                 echo "deployning hie dvv "
                 echo "hello naga sir"
                 echo "hi madhu "
+                echo "good to see you"
             }
         }
         // stage('environment') {
