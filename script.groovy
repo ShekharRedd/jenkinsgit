@@ -1,5 +1,5 @@
 def build(){
-    echo "build the application "
+    sh "git status"
 }
 
 def test(){
