@@ -67,7 +67,7 @@ pipeline {
         }  
         stage('dinesh') {
             steps {
-                echo "hi dinesh h r u"
+                sh 'python ram1.py'
             }
         }                 
     }
