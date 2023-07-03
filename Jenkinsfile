@@ -34,6 +34,52 @@
 //     }
   
 // }
+
+// def gv
+// pipeline {
+//     agent any
+//     parameters {
+//         string(name: 'ENVIRONMENT', defaultValue: 'dev', description: 'Environment to deploy to')
+//         booleanParam(name: 'TESTING', defaultValue: true, description: 'Run tests before deployment')
+//         choice(name: 'BRANCH', choices: ['master', 'develop', 'feature/*'], description: 'Git branch to deploy from')
+//     }
+    
+//     stages {
+//         stage('Build') {
+//             steps {
+//                 sh 'echo "good morning on ${BRANCH} branch"'
+//             }
+//         }
+//         stage('Test') {
+//             when {
+//                 expression { params.TESTING == true }
+//             }
+//             steps {
+//                 sh 'echo "Running the good it is working tests..."'
+//             }
+//         }
+//         stage('Deploy') {
+//             steps {
+//                 sh 'echo " to ${ENVIRONMENT} environment..."'
+//             }
+//         }
+//         stage('environment') {
+//             steps {
+//                 sh 'echo " ${BUILD_ID} it is working fine thanks to all the meber"'
+//             }
+//         }  
+//         stage('naga pawan ') {
+//             steps {
+//                 sh 'python ram1.py'
+//             }
+//         }                 
+//     }
+// }
+
+
+
+
+def gv
 pipeline {
     agent any
     parameters {
@@ -42,9 +88,24 @@ pipeline {
         choice(name: 'BRANCH', choices: ['master', 'develop', 'feature/*'], description: 'Git branch to deploy from')
     }
     stages {
+        stage('init') {
+            steps{
+                script {
+                    gv = load "script.groovy"
+                }
+            }
+
+        } 
+    }   
+
+
+
+    stages {
         stage('Build') {
-            steps {
-                sh 'echo "good morning on ${BRANCH} branch"'
+            steps{
+            script{
+                gv.build
+            }
             }
         }
         stage('Test') {
@@ -52,29 +113,30 @@ pipeline {
                 expression { params.TESTING == true }
             }
             steps {
-                sh 'echo "Running the good it is working tests..."'
+                script{
+                    gv.test()
+                }
             }
         }
         stage('Deploy') {
             steps {
-                sh 'echo " to ${ENVIRONMENT} environment..."'
+                script{
+                    gv.deploy()
+                }
             }
         }
-        stage('environment') {
-            steps {
-                sh 'echo " ${BUILD_ID} it is working fine thanks to all the meber"'
-            }
-        }  
-        stage('naga pawan ') {
-            steps {
-                sh 'python ram1.py'
-            }
-        }                 
+        // stage('environment') {
+        //     steps {
+        //         sh 'echo " ${BUILD_ID} it is working fine thanks to all the meber"'
+        //     }
+        // }  
+        // stage('naga pawan ') {
+        //     steps {
+        //         sh 'python ram1.py'
+        //     }
+        // }                 
     }
 }
-
-
-
 
                        
         
