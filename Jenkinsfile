@@ -126,7 +126,8 @@ pipeline {
                 // script{
                 //     gv.deploy()
                 // }
-                echo "deployning hie dvv"
+                echo "deployning hie dvv "
+                echo "hello naga sir"
             }
         }
         // stage('environment') {
