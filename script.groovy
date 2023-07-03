@@ -2,7 +2,7 @@ def build(){
     echo "hello"
     sh "cd D:"
     sh "ls"
-    sh "cd D:/gitbash/"
+    sh "cd D:/gitbash/ | ls -l "
     sh "cat mn.txt"
     sh "ls"
     // sh "cd gitbash"
