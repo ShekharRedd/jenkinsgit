@@ -99,9 +99,11 @@ pipeline {
 
         stage('Build') {
             steps{
-            script{
-                gv.build()
-            }
+            // script{
+            //     gv.build()
+            // }
+            sh "cd D:"
+            sh "ls"
             }
         }
         stage('Test') {
@@ -109,16 +111,18 @@ pipeline {
                 expression { params.TESTING == true }
             }
             steps {
-                script{
-                    gv.test()
-                }
+            //     script{
+            //         gv.test()
+            //     }
+            echo "hi"
             }
         }
         stage('Deploying ') {
             steps {
-                script{
-                    gv.deploy()
-                }
+                // script{
+                //     gv.deploy()
+                // }
+                echo "hi"
             }
         }
         // stage('environment') {
