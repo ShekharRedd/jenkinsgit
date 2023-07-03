@@ -65,7 +65,7 @@ pipeline {
                 sh 'echo " ${BUILD_ID} it is working fine thanks to all the meber"'
             }
         }  
-        stage('dinesh') {
+        stage('naga pawan ') {
             steps {
                 sh 'python ram1.py'
             }
