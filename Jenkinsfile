@@ -57,14 +57,19 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'echo "Deploying to ${ENVIRONMENT} environment..."'
+                sh 'echo " to ${ENVIRONMENT} environment..."'
             }
         }
         stage('environment') {
             steps {
                 sh 'echo " ${BUILD_ID} it is working fine thanks to all the meber"'
             }
-        }        
+        }  
+        stage('dinesh') {
+            steps {
+                echo "hi dinesh h r u"
+            }
+        }                 
     }
 }
 
