@@ -44,7 +44,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo "Building on ${BRANCH} branch"'
+                sh 'echo "good morning on ${BRANCH} branch"'
             }
         }
         stage('Test') {
@@ -52,7 +52,7 @@ pipeline {
                 expression { params.TESTING == true }
             }
             steps {
-                sh 'echo "Running tests..."'
+                sh 'echo "Running the good it is working tests..."'
             }
         }
         stage('Deploy') {
