@@ -132,6 +132,7 @@ pipeline {
                 echo "hi madhu "
                 echo "good to see you"
                 echo "hi sredhar"
+                echo "namesthe"
             }
         }
         // stage('environment') {
