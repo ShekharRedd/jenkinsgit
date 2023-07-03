@@ -2,7 +2,6 @@ def build(){
     echo "hello"
     sh "cd D:"
     sh "ls"
-    sh "Jekinsfile"
     sh "cd D:/gitbash/"
     sh "ls"
     // sh "cd gitbash"
