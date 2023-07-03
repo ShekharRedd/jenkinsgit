@@ -3,6 +3,7 @@ def build(){
     sh "cd D:"
     sh "ls"
     sh "cd D:/gitbash/"
+    sh "cat mn.txt"
     sh "ls"
     // sh "cd gitbash"
     // sh "cd gitsecond"
