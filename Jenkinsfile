@@ -118,7 +118,7 @@ pipeline {
             //     script{
             //         gv.test()
             //     }
-            echo "hi"
+            echo "hello stating  "
             }
         }
         stage('Deploying ') {
@@ -126,7 +126,7 @@ pipeline {
                 // script{
                 //     gv.deploy()
                 // }
-                echo "hi"
+                echo "deployning "
             }
         }
         // stage('environment') {
