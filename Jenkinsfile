@@ -60,6 +60,11 @@ pipeline {
                 sh 'echo "Deploying to ${ENVIRONMENT} environment..."'
             }
         }
+        stage('environment') {
+            steps {
+                sh 'echo "environmetn to ${ENVIRONMENT} environment..."'
+            }
+        }        
     }
 }
 
