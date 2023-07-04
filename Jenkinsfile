@@ -25,6 +25,7 @@ pipeline {
             steps {
             echo "hello stating  "
             echo "hi"
+            echo "welcome"
             }
         }
         stage('Deploying ') {
