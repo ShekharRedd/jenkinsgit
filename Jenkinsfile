@@ -82,21 +82,21 @@
 // def gv
 pipeline {
     agent any
-    parameters {
-        string(name: 'ENVIRONMENT', defaultValue: 'dev', description: 'Environment to deploy to')
-        booleanParam(name: 'TESTING', defaultValue: true, description: 'Run tests before deployment')
-        choice(name: 'BRANCH', choices: ['master', 'develop', 'feature/*'], description: 'Git branch to deploy from')
-    }
-    stages {
-        stage('init') {
-            steps{
-                // script {
-                //     gv = load "script.groovy"
-                // }
-                echo "hi"
-            }
+    // parameters {
+    //     string(name: 'ENVIRONMENT', defaultValue: 'dev', description: 'Environment to deploy to')
+    //     booleanParam(name: 'TESTING', defaultValue: true, description: 'Run tests before deployment')
+    //     choice(name: 'BRANCH', choices: ['master', 'develop', 'feature/*'], description: 'Git branch to deploy from')
+    // }
+    // stages {
+    //     stage('init') {
+    //         steps{
+    //             // script {
+    //             //     gv = load "script.groovy"
+    //             // }
+    //             echo "hi"
+    //         }
 
-        } 
+    //     } 
         stage('Build') {
             steps {
                 sh '''
@@ -104,7 +104,7 @@ pipeline {
                 git switch shekhar
                 git status
                 git add .
-                git commit -m "goodef wer w rfile"
+                git commit -m "good file"
                 git pull
                 git push
                 '''
@@ -122,23 +122,23 @@ pipeline {
             echo "hello stating  "
             }
         }
-        stage('Deploying ') {
-            steps {
-                // script{
-                //     gv.deploy()
-                // }
-                echo "deployning hie dvv "
-                echo "hello naga sir"
-                echo "hi madhu "
-                echo "good to see you"
-                echo "hi sredhar"
-                echo "hi shekhar "
-                echo "namesthe"
-                echo "hi"
-                echo "welcome"
-                echo "dfdf"
-            }
-        }
+        // stage('Deploying ') {
+        //     steps {
+        //         // script{
+        //         //     gv.deploy()
+        //         // }
+        //         echo "deployning hie dvv "
+        //         echo "hello naga sir"
+        //         echo "hi madhu "
+        //         echo "good to see you"
+        //         echo "hi sredhar"
+        //         echo "hi shekhar "
+        //         echo "namesthe"
+        //         echo "hi"
+        //         echo "welcome"
+        //         echo "dfdf"
+        //     }
+        // }
         // stage('environment') {
         //     steps {
         //         sh 'echo " ${BUILD_ID} it is working fine thanks to all the meber"'
