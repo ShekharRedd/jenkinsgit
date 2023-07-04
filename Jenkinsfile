@@ -100,14 +100,14 @@ pipeline {
         stage('Build') {
             steps {
                 sh '''
-                  cd D:/gitbash/gitsecond/jenkinsgit
-                  git switch shekhar
-                  git status
-                  git add .
-                  git commit -m "good  file"
-                  git pull origin shekhar
-                  git push origin shekhar
-                  '''
+                cd D:/gitbash/gitsecond/jenkinsgit
+                git switch shekhar
+                git status
+                git add .
+                git commit -m "goodef wer w rfile"
+                git pull
+                git push
+                '''
             }
         }
 
