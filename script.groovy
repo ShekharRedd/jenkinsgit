@@ -18,9 +18,9 @@ def build(){
         cd D:/gitbash/gitsecond/jenkinsgit
         git switch shekhar
         git status
-        git pull
         git add .
         git commit -m "adding file"
+        git pull
         git push
     '''    
     
