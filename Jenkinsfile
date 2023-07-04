@@ -105,9 +105,9 @@ pipeline {
                   git status
                   git add .
                   git commit -m "good  file"
-                  git pull
-                  git push
-                '''
+                  git pull origin shekhar
+                  git push origin shekhar
+                  '''
             }
         }
 
