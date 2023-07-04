@@ -79,7 +79,7 @@
 
 
 
-def gv
+// def gv
 pipeline {
     agent any
     parameters {
@@ -90,9 +90,10 @@ pipeline {
     stages {
         stage('init') {
             steps{
-                script {
-                    gv = load "script.groovy"
-                }
+                // script {
+                //     gv = load "script.groovy"
+                // }
+                echo "hi"
             }
 
         } 
@@ -136,7 +137,7 @@ pipeline {
                 echo "namesthe"
                 echo "hi"
                 echo "welcome"
-                echo ""
+                echo "dfdf"
             }
         }
         // stage('environment') {
