@@ -20,7 +20,8 @@ def build(){
 }
 
 def test(){
-    echo "test the application "
+    echo "test the applicationt  "
+    echo "good to see you ${BRANCH_NAME}"
 }
 
 def deploy(){
