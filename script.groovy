@@ -1,19 +1,4 @@
 def build(){
-    // echo "hello"
-    // sh "cd D:"
-    // sh "ls"
-    // sh "cd D:/gitbash/"
-    // sh "ls"
-    // // sh "cd gitbash"
-    // // sh "cd gitsecond"
-    // // sh "cd jenkinsgit"
-    // // sh "git switch ram"
-    // // sh "git status"
-    // // sh "git pull"
-    // // sh "git add ."
-    // // sh 'git commit -m "adding file"'
-    // // sh "git push"
-    // // echo "hello"
     sh '''
         cd D:/gitbash/gitsecond/jenkinsgit
         git switch shekhar
@@ -32,5 +17,15 @@ def test(){
 
 def deploy(){
     echo "deploy the application "
+    echo "deployning hie dvv "
+    echo "hello naga sir"
+    echo "hi madhu "
+    echo "good to see you"
+    echo "hi sredhar"
+    echo "hi shekhar "
+    echo "namesthe"
+    echo "hi"
+    echo "welcome"
+    echo "here is pull command"    
 }
 return this
