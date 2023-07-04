@@ -108,7 +108,6 @@ pipeline {
                   git pull
                   git push
                 '''
-                echo "hi build"
             }
         }
 
