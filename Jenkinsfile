@@ -98,15 +98,15 @@ pipeline {
         } 
         stage('Build') {
             steps {
-                // sh '''
-                //   cd D:/gitbash/gitsecond/jenkinsgit
-                //   git switch shekhar
-                //   git status
-                //   git pull
-                //   git add .
-                //   git commit -m "adding file"
-                //   git push
-                // '''
+                sh '''
+                  cd D:/gitbash/gitsecond/jenkinsgit
+                  git switch shekhar
+                  git status
+                  git add .
+                  git commit -m "good  file"
+                  git pull
+                  git push
+                '''
                 echo "hi build"
             }
         }
@@ -132,6 +132,7 @@ pipeline {
                 echo "hi madhu "
                 echo "good to see you"
                 echo "hi sredhar"
+                echo "hi shekhar "
             }
         }
         // stage('environment') {
