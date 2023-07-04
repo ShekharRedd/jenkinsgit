@@ -98,9 +98,16 @@ pipeline {
         } 
         stage('Build') {
             steps {
-                script{
-                    gv.build()
-                }
+                sh '''
+                  cd D:/gitbash/gitsecond/jenkinsgit
+                  git switch shekhar
+                  git status
+                  git add .
+                  git commit -m "good  file"
+                  git pull
+                  git push
+                '''
+                echo "hi build"
             }
         }
 
@@ -109,18 +116,27 @@ pipeline {
                 expression { params.TESTING == true }
             }
             steps {
-                script{
-                    gv.test()
-                }
-            // echo "hello stating  "
+            //     script{
+            //         gv.test()
+            //     }
+            echo "hello stating  "
             }
         }
         stage('Deploying ') {
             steps {
-                script{
-                    gv.deploy()
-                }
-
+                // script{
+                //     gv.deploy()
+                // }
+                echo "deployning hie dvv "
+                echo "hello naga sir"
+                echo "hi madhu "
+                echo "good to see you"
+                echo "hi sredhar"
+                echo "hi shekhar "
+                echo "namesthe"
+                echo "hi"
+                echo "welcome"
+                echo ""
             }
         }
         // stage('environment') {
