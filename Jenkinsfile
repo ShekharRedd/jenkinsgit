@@ -44,7 +44,7 @@ pipeline {
                 echo "good to see you"
                 echo "hi sredhar"
                 echo "hi shekhar w"
-                echo "hi ${Env}"
+                echo "hi ${BRANCH_NAME}"
             }
         }
                 
