@@ -43,7 +43,7 @@ pipeline {
                 echo "hi madhu "
                 echo "good to see you"
                 echo "hi sredhar"
-                echo "hi shekhar "
+                echo "hi shekhar w"
                 echo "hi ${Env}"
             }
         }
