@@ -136,6 +136,7 @@ pipeline {
                 echo "namesthe"
                 echo "hi"
                 echo "welcome"
+                echo "here is pull command"
             }
         }
         // stage('environment') {
