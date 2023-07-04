@@ -29,6 +29,14 @@ pipeline {
             }
         }
         stage('Deploying ') {
+            input {
+                message "select the env"
+                ok "done"
+                parameters{
+                    choice(name: "Env" , choices:["env","prod"] , description: "good")
+
+                }
+            }
             steps {
                 echo "deployning hie dvv "
                 echo "hello naga sir"
@@ -36,6 +44,7 @@ pipeline {
                 echo "good to see you"
                 echo "hi sredhar"
                 echo "hi shekhar "
+                echo "hi ${Env}"
             }
         }
                 
