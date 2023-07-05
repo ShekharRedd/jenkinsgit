@@ -31,8 +31,8 @@ pipeline {
         stage('Test') {
             steps {
                 script{
-                call()
-                // echo "hi"
+                    dep()
+
                 }
             }
         }
