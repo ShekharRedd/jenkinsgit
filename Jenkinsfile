@@ -28,7 +28,7 @@ pipeline {
             }
         }
 
-        stage('Testing we') {
+        stage('Testing ') {
             steps {
                 script{
                     
