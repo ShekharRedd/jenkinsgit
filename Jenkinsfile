@@ -32,6 +32,7 @@ pipeline {
             steps {
                 script{
                     test.call1() 
+                    deploy()
                 }
             }
         }
