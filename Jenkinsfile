@@ -30,11 +30,11 @@ pipeline {
 
         stage('Testing the') {
             steps {
-                // script{
+                script{
                     
-                //     deploy()
-                // }
-                deploy()
+                    deploy()
+                }
+        
             }
         }
         stage('Deploying ') {
