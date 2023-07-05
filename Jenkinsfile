@@ -28,11 +28,10 @@ pipeline {
             }
         }
 
-        stage('Test') {
+        stage('Testing') {
             steps {
                 script{
                     test()   
-
                 }
             }
         }
