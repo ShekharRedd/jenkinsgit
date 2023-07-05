@@ -32,7 +32,7 @@ pipeline {
             steps {
                 script{
                     
-                    deploy()
+                    deploy 'shekhar123reddy/dock:3.5'
                 }
         
             }
