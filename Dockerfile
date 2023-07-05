@@ -1,3 +1,3 @@
-FROM ubuntu
+FROM busybox
 
-CMD ["echo","hello world build 6.0 "]
+CMD echo "Hello, world!"
