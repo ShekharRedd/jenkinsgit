@@ -30,8 +30,10 @@ pipeline {
 
         stage('Test') {
             steps {
+                script{
                 call()
-                echo "hi"
+                // echo "hi"
+                }
             }
         }
         stage('Deploying ') {
