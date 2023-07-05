@@ -31,6 +31,7 @@ pipeline {
         stage('Test') {
             steps {
                 call()
+                echo "hi"
             }
         }
         stage('Deploying ') {
