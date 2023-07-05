@@ -1,9 +1,16 @@
+#!/usr/bin/env groovy
+
+@Library('SharedLib')
+def gv
 pipeline {
     agent any
     stages {
         stage('init') {
             steps{
-                echo "hi"
+                script{
+
+                        gv=load "script.groovy"
+                }
             }
 
         } 
@@ -23,9 +30,7 @@ pipeline {
 
         stage('Test') {
             steps {
-            echo "hello stating  "
-            echo "hi"
-            echo "welcome"
+                call()
             }
         }
         stage('Deploying ') {
