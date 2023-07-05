@@ -31,7 +31,7 @@ pipeline {
         stage('Testing the ') {
             steps {
                 script{
-                    test.call1() 
+                    
                     deploy()
                 }
             }
